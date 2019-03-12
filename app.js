@@ -29,8 +29,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 创建一个用户专属令牌
 app.set('jwtTokenSecret', 'diaoxin');
 
-let appid ='wx0bfd1015d1db2f91'//appid
-let secret ='84adec11fde11b54f5e4292b377524b6'//secret
+let appid =''//appid
+let secret =''//secret
 
 var user ={}
 
